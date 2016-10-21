@@ -1,0 +1,34 @@
+
+p{
+  font-size: 1.2em;
+}
+
+ul{
+  margin-top:-1%; 
+}
+
+li{
+  list-style: none;
+  font-size:1.2em;
+}
+
+#container{
+  text-align:center;
+}
+
+#logo{
+  height:10%;
+  width:10%;
+}
+
+.topic{
+  padding-bottom: 5%;
+}
+
+.details{
+  text-align:left;
+  max-width:90%;
+  padding-left: 5%;
+}
+
+
