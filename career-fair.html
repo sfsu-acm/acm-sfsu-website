@@ -12,14 +12,18 @@
 <body>
 
   <script>
-    // $(function() {
-    //   $(window).bind('load', function() {
-    //     $("div.container").delay(1500).append('<iframe width="0" height="0" frameborder="0" src="./SFSUTECHCAREERFAIR.pdf"></iframe>');
-    //   });
-    // });
+      $(function() {
+        $('a[data-auto-download]').each(function(){
+            var $this = $(this);
+            setTimeout(function() {
+                window.location = $this.attr('href');
+            }, 2000);
+        });
+    });
   </script>
 <div id="container">
-  <iframe width="1" height="1" frameborder="0" src="./SFSUTECHCAREERFAIR.pdf"></iframe>
+        <p>The download should start shortly. If it doesn't, click
+        <a data-auto-download href="./SFSUTECHCAREERFAIR.pdf">here</a>.</p>
 </div>
 </body>
 </html>
