@@ -1,17 +1,4 @@
 
-p{
-  font-size: 1.2em;
-}
-
-ul{
-  margin-top:-1%; 
-}
-
-li{
-  list-style: none;
-  font-size:1.2em;
-}
-
 #container{
   text-align:center;
 }
@@ -29,7 +16,23 @@ li{
   text-align:left;
   max-width:90%;
   padding-left: 5%;
-  font-size:1.4em; 
+  font-size:1.4em;
 }
 
+.companyLink{
+  color: black;
+}
 
+p{
+  font-size: 1.2em;
+}
+
+ul{
+  margin-top:-1%;
+  font-size: 1.6em;
+}
+
+li{
+  list-style: none;
+  padding-top: 1%;
+}
