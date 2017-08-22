@@ -1,33 +1,212 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
 <head>
-    <title>ACM SFSU</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:800,800i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/base.css" />
+
+
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
-<div id="container">
-    <div id="header">
-      <img id="logo" src="./images/acmlogo.png"/>
-      <h3><a href="https://sfsucomputerscience.slack.com">Don't forget to join our Slack Team!</a></h3>
-  </div>
-    
-    <div class="topic">
-      <h1>Introduction to Web Design</h1>
-      <h2>Wednesday, April 26th | 5:00PM | Lib 282 </h2>
-      <p class="details">
-        SFSU Association of Computing Machinery is excited to hold a workshop on the basics of web design! 
-        We will start with some common concepts, and then break it down into a Q&A. Bring ideas and prototypes, 
-        we want to help you!
-        <br/> 
-      </p>
-       <a href="https://www.eventbrite.com/e/introduction-to-web-design-tickets-34049238188">Register for the event here!</a>  
-       
-    </div>
-    
-</div>
+    <div class="ct" id="home">
+        <div class="ct" id="about">
+            <div class="ct" id="events">
+                <div class="ct" id="contact">
+                    <div class="ct" id="t5">
+                        <ul class="icons animated fadeInLeft" id="menu">
+                            <a href="#home">
+                                <li class="icon fa fa-home" id="one"></li>
+                            </a>
+                            <a href="#about">
+                                <li class="icon fa fa-users" id="two"></li>
+                            </a>
+                            <a href="#events">
+                                <li class="icon fa fa-calendar" id="three"></li>
+                            </a>
+                            <a href="#contact">
+                                <li class="icon fa fa-envelope-open" id="four"></li>
+                            </a>
+                        </ul>
+                        <div class="page" id="p1">
+                            <section>
+                                <div class="content">
+                                    <div class="container">
+                                        <div class="center">
+                                            <div class="svg-container">
+                                                <svg width="350px" height="350px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                                    <defs>
+                                                        <linearGradient x1="50%" y1="14.8955676%" x2="57.328034%" y2="157.55012%" id="linearGradient-1">
+                                                            <stop stop-color="#550055" offset="0%"></stop>
+                                                            <stop stop-color="#220022" offset="59.2581484%"></stop>
+                                                            <stop stop-color="#000000" offset="100%"></stop>
+                                                        </linearGradient>
+                                                        <circle id="path-2" cx="250" cy="250" r="135"></circle>
+                                                        <filter x="-6.5%" y="-8.0%" width="118.9%" height="118.9%" filterUnits="objectBoundingBox" id="filter-3">
+                                                            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+                                                            <feOffset dx="8" dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+                                                            <feMorphology radius="5" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+                                                            <feOffset dx="8" dy="4" in="shadowInner" result="shadowInner"></feOffset>
+                                                            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+                                                            <feGaussianBlur stdDeviation="5.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                                                            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+                                                        </filter>
+                                                        <text id="text-4" font-family="LucidaGrande-Bold, Lucida Grande" font-size="80" font-weight="bold" fill="#FFBB11">
+                                                            <tspan x="166.90625" y="271">acm</tspan>
+                                                        </text>
+                                                        <filter x="-6.8%" y="-13.3%" width="116.4%" height="137.2%" filterUnits="objectBoundingBox" id="filter-5">
+                                                            <feOffset dx="3" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+                                                            <feGaussianBlur stdDeviation="5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+                                                            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+                                                        </filter>
+                                                    </defs>
+                                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                        <g id="Artboard">
+                                                            <g id="ACM-logo">
+                                                                <rect id="Rectangle-2" fill="#FFFFFF" x="0" y="0" width="500" height="500"></rect>
+                                                                <rect id="Rectangle" fill="url(#linearGradient-1)" transform="translate(249.890411, 249.890413) rotate(-46.000000) translate(-249.890411, -249.890413) "
+                                                                    x="76.7003161" y="76.7004104" width="346.380189" height="346.380005"></rect>
+                                                                <g id="Oval">
+                                                                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                                                                    <use stroke="#FFBB11" stroke-width="10" xlink:href="#path-2"></use>
+                                                                </g>
+                                                                <g id="acm" fill-opacity="0" stroke="#FFBB11" stroke-width="1">
+                                                                    <use filter="url(#filter-5)" xlink:href="#text-4"></use>
+                                                                    <use xlink:href="#text-4"></use>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </svg>
+                                            </div>
+                                            <h2 class="main-heading1 animated fadeIn">ACM@SF STATE</h2>
+                                            <br />
+                                            <a href="https://sfsucomputerscience.slack.com/" target="_blank" class="animated fadeIn cubeBtn"><span class="slack-button" data-hover="Join for updates"><img class="slack-logo" src="images/slack.png" />   ACM SLACK</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="page col s12 m12 l12" id="p2">
+                            <section>
+                                <div class="content">
+                                    <div class="row">
+                                        <div class="col s12 m9 l9">
+                                            <h1 class="main-heading2">About Us</h1>
+                                            </br>
+                                            <p class="about-info animated fadeIn">
+                                                SFSU Association for Computing Machinery (ACM) is one of the largest student run tech communities in San Francisco and the
+                                                biggest computer science club at SFSU.
+                                                </br>
+                                                </br>
+
+                                                SFSU ACMs objective is to develop skills of SFSU’s tech community in programming, computer science research, design, leadership
+                                                and to expand SFSU’s tech community and provide it the resources it needs
+                                                to flourish.
+                                                </br>
+                                                </br>
+
+                                                Our Vision To cultivate the next generation of technology leaders by promoting the spirit of innovation and establishing
+                                                a culture of creativity
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="page" id="p3">
+                            <section>
+                                <div class="content">
+
+                                    <div class="row">
+                                        <div class="col s12 m5 l5">
+                                            <h2 class="main-heading3 animated fadeInLeft flow-text"> Upcoming events</h2>
+                                        </div>
+                                        <div class="col s12 m6 l6">
+                                            <ul class="collapsible popout animated fadeInRight" data-collapsible="accordion">
+                                                <li>
+                                                    <div class="collapsible-header event-header "><span class="left"><i class="material-icons">date_range</i>1st Sept.</span>
+                                                        <span class="right">Welcome day!</span>
+                                                    </div>
+                                                    <div class="collapsible-body">
+                                                        <h2 class="event-name">Welcome day</h2>
+                                                        <p>
+                                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                                                            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                                                            in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                                            nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                                                            sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                                        </p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="collapsible-header event-header"><span class="left"><i class="material-icons">date_range</i>1st Sept.</span>
+                                                        <span class="right">Welcome day!</span>
+                                                    </div>
+                                                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                                                </li>
+                                                <li>
+                                                    <div class="collapsible-header event-header"><span class="left"><i class="material-icons">date_range</i>1st Sept.</span>
+                                                        <span class="right">Welcome day!</span>
+                                                    </div>
+                                                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                                                </li>
+                                                <li>
+                                                    <div class="collapsible-header event-header"><span class="left"><i class="material-icons">date_range</i>1st Sept.</span>
+                                                        <span class="right">Welcome day!</span>
+                                                    </div>
+                                                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                                                </li>
+                                                <li>
+                                                    <div class="collapsible-header event-header"><span class="left"><i class="material-icons">date_range</i>1st Sept.</span>
+                                                        <span class="right">Welcome day!</span>
+                                                    </div>
+                                                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="page" id="p4">
+                            <section>
+                                <div class="content">
+                                    <div class="row">
+                                        <div class="col s12 m12 l12">
+
+                                            <h1 class="main-heading4">Follow ACM@SFSU</h1>
+                                            <div class="row">
+                                                <a href="https://twitter.com/ACMatSFSU" target="_blank"><i class=" fa fa-twitter fa-4x social-icons " aria-hidden="true "></i></a>
+                                                <a href="https://www.facebook.com/ACMatSFSU/" target="_blank"><i class=" fa fa-facebook-square fa-4x social-icons " aria-hidden="true "></i></a>
+                                                <i class=" fa fa-instagram fa-4x social-icons " aria-hidden="true "></i>
+                                            </div>
+                                            <h1 class="center main-heading4">OR</h1>
+                                            <span><h1 class="main-heading4">E-Mail @</h1><a href="mailto:acm.sfsu@gmail.com"><h3 class="main-heading3 social-icons">acm.sfsu@gmail.com</h3></a></span>
+
+                                        </div>
+                                    </div>
+                            </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <!-- <script src="js/materialize.min.js"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+        <script src="js/base.js"></script>
 </body>
+
 </html>
